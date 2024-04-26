@@ -17,7 +17,7 @@
     "NodeJS",
     "Express.js"
   ],
-  "author": "Hirwa Jean Eric",
+  "author": "Passy",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -40,5 +40,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paccy1/Car-Race-Event-Organizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paccy1/Car-Race-Event-Organizer/issues"
+  },
+  "homepage": "https://github.com/paccy1/Car-Race-Event-Organizer#readme"
 }
