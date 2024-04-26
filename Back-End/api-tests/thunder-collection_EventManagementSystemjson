@@ -1,6 +1,6 @@
 {
     "client": "Thunder Client",
-    "collectionName": "VEHICLE SERVICING BOOKING SYSTEM",
+    "collectionName": "Event Management System",
     "dateExported": "2023-05-14T18:54:31.827Z",
     "version": "1.1",
     "folders": [
@@ -41,7 +41,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\":\"higiro@gmail.com\",\n  \"password\":\"Higiro123!\"\n}",
+                "raw": "{\n  \"email\":\"christella@gmail.com\",\n  \"password\":\"christella123!\"\n}",
                 "form": []
             },
             "tests": []
@@ -60,7 +60,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"fullName\":\"Umubyeyi Bienvenue\",\n  \"email\":\"bienvenue@gmail.com\",\n  \"phone\":\"0789321943\",\n  \"password\":\"Bienvenue123!\"\n}",
+                "raw": "{\n  \"fullName\":\"Nice UMUBYEYI\",\n  \"email\":\"nice@gmail.com\",\n  \"phone\":\"079987065\",\n  \"password\":\"nice123!\"\n}",
                 "form": []
             },
             "tests": []
@@ -93,7 +93,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"bienvenue@gmail.com\",\n  \"fullName\": \"Umubyeyi Bienvenue\",\n  \"phone\": \"0789321943\",\n  \"vehicleType\":\"Car\",\n  \"vehicleModel\":\"Brabus\",\n  \"typeOfService\":\"Engine Tune-up\"\n}",
+                "raw": "{\n  \"email\": \"nice@gmail.com\",\n  \"fullName\": \"Nice UMUBYEYI\",\n  \"phone\": \"0790987083\",\n  \"vehicleType\":\"Car\",\n  \"vehicleModel\":\"Brabus\",\n  \"typeOfService\":\"Engine Tune-up\"\n}",
                 "form": []
             },
             "tests": []
