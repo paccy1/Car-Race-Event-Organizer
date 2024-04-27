@@ -23,7 +23,7 @@ export default function NavigationBar() {
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/book-now'}>Book now</NavLink></li>
       </ul>
-      <Logo to={'/'} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', fontWeight: '700'}}><CarCrash />EventManagementSystem</Logo>
+      <Logo to={'/'} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '5px', fontWeight: '700'}}><CarCrash/>EventManagementSystem</Logo>
       <ul>
         {localStorage.getItem('cltTkn') ?
           <>

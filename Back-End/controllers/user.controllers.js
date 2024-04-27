@@ -198,7 +198,7 @@ const resetPassword = async(req, res, next) => {
     const payload = jwt.verify(token, process.env.JWT_SECRET);
     if (!payload) { throw new UnauthenticatedError('Invalid or expired link')}
 
-    // Validating the password using Joi and Join Password Complexity
+    // Validating the password using Joi and Joi Password Complexity
     const schema = Joi.object({
         password: passwordComplexity().required().label('Password'),
     })

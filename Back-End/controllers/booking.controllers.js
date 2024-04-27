@@ -197,7 +197,7 @@ const edit = async(req, res, next) => {
         } else if (booking.workStatus !== updatedBooking.workStatus) {
             if (booking.workStatus === 'Ended') {
                 emailTemplate.email = updatedBooking.email;
-                emailTemplate.subject = 'Vehicle Services Completed';
+                emailTemplate.subject = 'Car Booking Completed';
                 emailTemplate.text = `Dear ${updatedBooking.fullName},\n\nThis is to inform you that works on your vehicle that was stationed in our garage for ${updatedBooking.typeOfService} have been completed. You are thereby requested to come and pic your vehicle not later than a day (24 hours) from the time this message is delivered to you. \n\nPlease note that failure to take your car from the garage will result in extra parking fees since parking space is very much in demand.\n\nBest regards,`;;
             }
         } else if (!booking.status && (booking.serviceDay !== updatedBooking.serviceDay || booking.startHour !== updatedBooking.startHour)) {

@@ -27,7 +27,7 @@ const bookingSchema = new mongoose.Schema({
     },
     vehicleModel: { 
         type: String, 
-        required: [true, 'Vehicle model must be provided'],
+        required: [true, 'Car model must be provided'],
     },
     typeOfService: { 
         type: String, 

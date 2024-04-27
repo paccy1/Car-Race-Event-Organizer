@@ -21,11 +21,11 @@ app.use('/api/v1/vsb/', allRoutes);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
-const port = process.env.PORT || 5151;
+const port = process.env.PORT || 5000;
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/VEHICLE_BOOKING');
+    await connectDB(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/Car-Racing-Event-Management');
     app.listen(port, () =>
       console.log(`Server is listening on port ${port}...`)
     );
